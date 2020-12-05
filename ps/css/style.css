@@ -93,3 +93,16 @@ footer{
   background-color: #C0C0C0;
   color: white;
 }
+/*------------------------------別ページ-------------------------------*/
+.ichiran_detail ul{
+  list-style-type: none;
+}
+.ichiran_detail a{
+  color:  #C0C0C0;
+  text-decoration: none;
+  font-size: 40px;
+}
+.ichiran_detail a:hover{
+color: #FFD700;
+text-decoration:underline;
+}

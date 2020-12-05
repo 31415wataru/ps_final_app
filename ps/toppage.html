@@ -6,15 +6,15 @@
     <title></title>
   </head>
   <body>
-  <header>
-    <div id="header">
-    <ul>
-      <li><a href="about.html">私たちについて</a></li>
-      <li><a href="about_totb.html">TOTBについて</a></li>
-      <li><a href="search.html">店舗一覧</a></li>
-    </ul>
-    </div>
-  </header>
+  <!--ヘッダー量産機能-->
+  <div id="header"></div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+           $('#header').load('header.html');
+        });
+    </script>
+  <!--ヘッダー量産機能ここまで-->
   <div id="top_img">
   <img src="img/totb_rogo.jpg" alt="トップページのロゴ"　>
   </div>
@@ -45,5 +45,19 @@
 <option value="豊郷町">豊郷町</option>
 <option value="竜王町">竜王町</option>
 </select>
+<!--ここから下は共通-->
+    <center>
+      <div  class="return_top">
+        <b>
+      <a href="ichiran.html">店舗一覧</a>
+       </b>
+      </div>
+    </center>
+    <footer>
+      <center>
+      ©ps from Ritsumeikan Moriyama HS
+      </center>
+    </footer>
+  <!--ここまで-->
   </body>
 </html>
