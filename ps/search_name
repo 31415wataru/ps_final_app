@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" />
+    <title></title>
+  </head>
+  <body>
+    <!--ヘッダー量産機能-->
+    <div id="header"></div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script type="text/javascript">
+          $(document).ready(function() {
+             $('#header').load('header.html');
+          });
+      </script>
+    <!--ヘッダー量産機能ここまで-->
+    <center>
+    <h1>名前から検索</h1>
+    </center>
+    <a href="#start_a">
+    <a href="#start_ka">
+    <a href="#start_sa">
+    <a href="#start_ta">
+    <a href="#start_na">
+    <a href="#start_ha">
+    <a href="#start_ma">
+    <a href="#start_ya">
+    <a href="#start_ra">
+    <a href="#start_wa">
+
+
+    <!--ここから下は共通-->
+        <div id="footer"></div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+          <script type="text/javascript">
+              $(document).ready(function() {
+                 $('#footer').load('footer.html');
+              });
+          </script>
+      <!--ここまで-->
+  </body>
+</html>
