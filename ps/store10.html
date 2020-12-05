@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+      <ul>
+        <li><a href="about.html">私たちについて</a></li>
+        <li><a href="about_totb.html">TOTBについて</a></li>
+        <li><a href="search.html">店舗一覧</a></li>
+      </ul>
+      </div>
+    </header>
+    <div id="template">
+    <img src="img/store_img.png" alt="">
+    </div>
+    <p class="detail_title">料亭　魚末</p>
+    <p class="detail_title">対応レベル</p>
+    <center>
+      <a class="icon1">LEVEL1</a>
+      <a class="icon3">LEVEL3</a>
+    </center>
+
+    <p class="detail_title">対応時間</p>
+    <p class="text_store">営業時間全てで対応</p>
+    <a href="storedetail.html" class="detail_title">店舗情報</a>
+    <br>
+    <table border="0" cellspacing="0" cellpadding="1">
+      <tr>
+        <td>
+    <form method="POST" action="comment_store10.php?rep=1" target="com">
+    <span style="font-size:18px;font-weight:100;color:#ff0000">■</span><b>店舗レビュー</b>(100文字まで)<br>
+    <input type="text" id="comment" name="comment" size="80" style="width:80%;border:1px solid #00ccff">
+    <input type="submit" id="submit" value=" 送信 " style="width:54">
+        </td></form>
+      </tr>
+      <tr>
+        <td>
+    <div id="commentv" style="font-size:13px;line-height:15px;color:#666699;width:580px;height:160px;border:1px solid #00ccff;padding:8px;overflow-y:scroll;display:none;"></div>
+    <iframe name="com" src="comment_store10.php" id="com" style="width:301px;height:201px;frameborder:0px;border:0px;padding:0px;overflow:hidden;display:none;"></iframe>
+        </td>
+      </tr>
+    </table>
+    <br>
+  </body>
+</html>
