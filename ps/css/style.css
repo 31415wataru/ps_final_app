@@ -17,7 +17,7 @@ list-style-type: none;
 color:#FFD700;
 text-decoration:underline;
 }
-#top_img img{
+.top_img img{
   width: 100%;
 }
 #template img{
@@ -29,6 +29,19 @@ text-decoration:underline;
 }
 .detail_title a{
  color: black;
+}
+#enter_search a{
+  font-size: 50px;
+  background-color: #FFD700;
+  color: white;
+  border-radius: 20px;
+}
+#enter_search a:hover{
+  font-size: 50px;
+  background-color: #FFA500;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
 }
 .icon3{
   font-size: 30px;
@@ -93,6 +106,10 @@ footer{
   background-color: #C0C0C0;
   color: white;
 }
+select{
+  width: 50%;
+  font-size: 40px;
+}
 /*------------------------------別ページ-------------------------------*/
 .ichiran_detail ul{
   list-style-type: none;
@@ -105,4 +122,9 @@ footer{
 .ichiran_detail a:hover{
 color: #FFD700;
 text-decoration:underline;
+}
+/*------------------------------別ページ-------------------------------*/
+.title_search{
+  font-size: 40px;
+  color: #C0C0C0;
 }

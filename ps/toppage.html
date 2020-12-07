@@ -5,6 +5,12 @@
     <link rel="stylesheet" href="css/style.css" />
     <title></title>
   </head>
+  <script type="text/javascript">
+  function dropsort() {
+      var browser = document.sort_form.sort.value;
+      location.href = browser
+  }
+  </script>
   <body>
   <!--ヘッダー量産機能-->
   <div id="header"></div>
@@ -15,20 +21,22 @@
         });
     </script>
   <!--ヘッダー量産機能ここまで-->
-  <div id="top_img">
-  <img src="img/totb_rogo.jpg" alt="トップページのロゴ"　>
+  <div class="top_img">
+  <img src="img/totb_rogo.jpg" alt="レベル分け"　>
   </div>
   <center>
     <h1>～除去食、代用食の新しい常識を～</h1>
     <h3>店舗名から検索</h3>
-    <input type="search" name="search" placeholder="キーワードを入力">
-    <input type="submit" name="submit" value="検索">
+    <div id="enter_search">
+    <a href="search_name.html">検索する</a>
+  </div>
     <h3>市町村から検索</h3>
-    <select name="pref">
+  <form name="sort_form">
+    <select name="pref" onChange="location.href=value;">
 <option value="大津市" selected>大津市</option>
 <option value="草津市">草津市</option>
 <option value="栗東市">栗東市</option>
-<option value="守山市">守山市</option>
+<option value="search_moriyama.html">守山市</option>
 <option value="野洲市">野洲市</option>
 <option value="近江八幡市">近江八幡市</option>
 <option value="東近江市">東近江市</option>
@@ -45,6 +53,12 @@
 <option value="豊郷町">豊郷町</option>
 <option value="竜王町">竜王町</option>
 </select>
+</form>
+<h3>レベル別速見表</h3>
+<div class="top_img">
+<img src="img/level.png" alt="レベル分けの表"　>
+<img src="img/level_example.png" alt="レベル分けの表"　>
+</div>
 <!--ここから下は共通-->
     <center>
       <div  class="return_top">
