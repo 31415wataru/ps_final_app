@@ -1,5 +1,5 @@
 #header{
-  background-color: #C0C0C0;
+  background-color: #A9A9A9;
   padding-top: 5px;
   padding-bottom:5px;
 
@@ -7,14 +7,14 @@
 #header li{
 display: inline-block;
 list-style-type: none;
-width: 30%;
+width: 32%;
+
 
 }
 #header a{
   color: white;
   text-decoration: none;
   font-size: 40px;
-
 }
 #header a:hover{
 color:#FFD700;
@@ -29,7 +29,7 @@ text-decoration:underline;
 .detail_title{
   font-size: 60px;
   margin-left: 30px;
-  color: #C0C0C0;
+  color: #A9A9A9;
 
 }
 .detail_title a{
@@ -104,6 +104,7 @@ text-decoration:underline;
 }
 .return_top a{
   color:  #C0C0C0;
+  font-size: 50px;
 }
 .return_top a:hover{
 color: #FFD700;
@@ -128,7 +129,7 @@ li{
   list-style-type: none;
 }
 .ichiran_detail a{
-  color:  #C0C0C0;
+  color:  #A9A9A9;
   text-decoration: none;
   font-size: 50px;
 }
@@ -139,10 +140,10 @@ text-decoration:underline;
 /*------------------------------別ページ-------------------------------*/
 .title_search{
   font-size: 40px;
-  color: #C0C0C0;
+  color: #A9A9A9;
 }
 .search_text a{
-  color:  #C0C0C0;
+  color:  #A9A9A9;
   font-size: 60px;
 }
 .search_text a:hover{
@@ -153,5 +154,5 @@ text-decoration:underline;
 }
 .detail_shousai{
   font-size: 50px;
-  color: #C0C0C0;
+  color: #A9A9A9;
 }
