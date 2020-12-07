@@ -31,17 +31,19 @@ text-decoration:underline;
  color: black;
 }
 #enter_search a{
-  font-size: 50px;
+  font-size: 70px;
   background-color: #FFD700;
   color: white;
   border-radius: 20px;
+  padding: 20px;
 }
 #enter_search a:hover{
-  font-size: 50px;
+  font-size: 70px;
   background-color: #FFA500;
   color: white;
   text-decoration: none;
   border-radius: 20px;
+  padding: 20px;
 }
 .icon3{
   font-size: 50px;
@@ -80,7 +82,7 @@ text-decoration:underline;
 .icon0{
   font-size: 50px;
   color: white;
-  padding: 10px;
+  padding: 0px;
   border-radius: 20px;
   background-color: black;
 }
