@@ -2,16 +2,19 @@
   background-color: #C0C0C0;
   padding-top: 5px;
   padding-bottom:5px;
+
 }
 #header li{
 display: inline-block;
 list-style-type: none;
+width: 30%;
+
 }
 #header a{
   color: white;
-  width: 28%;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 40px;
+
 }
 #header a:hover{
 color:#FFD700;
