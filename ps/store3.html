@@ -6,15 +6,6 @@
     <title></title>
   </head>
   <body>
-    <header>
-      <div id="header">
-      <ul>
-        <li><a href="about.html">私たちについて</a></li>
-        <li><a href="about_totb.html">TOTBについて</a></li>
-        <li><a href="search.html">店舗一覧</a></li>
-      </ul>
-      </div>
-    </header>
     <div id="template">
     <img src="img/store_img.png" alt="">
     </div>
@@ -45,6 +36,15 @@
       </tr>
     </table>
     <br>
+    <!--ヘッダー量産機能-->
+    <div id="header"></div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script type="text/javascript">
+          $(document).ready(function() {
+             $('#header').load('header.html');
+          });
+      </script>
+    <!--ヘッダー量産機能ここまで-->
     <!--ここから下は共通-->
         <div id="footer"></div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
