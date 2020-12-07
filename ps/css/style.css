@@ -118,6 +118,9 @@ select{
 h1{
   font-size: 50px;
 }
+li{
+  font-size: 40px;
+}
 /*------------------------------別ページ-------------------------------*/
 .ichiran_detail ul{
   list-style-type: none;
@@ -135,4 +138,14 @@ text-decoration:underline;
 .title_search{
   font-size: 40px;
   color: #C0C0C0;
+}
+.search_text a{
+  color:  #C0C0C0;
+  font-size: 60px;
+}
+.search_text a:hover{
+  color: #FFD700;
+}
+.search_text{
+  list-style-type: none;
 }
