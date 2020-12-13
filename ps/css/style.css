@@ -184,3 +184,10 @@ text-decoration:underline;
   color: #A9A9A9;
 
 }
+.detail_store_page{
+  background-image: url("../img/logo_background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+}
