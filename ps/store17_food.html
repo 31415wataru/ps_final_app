@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title></title>
+  </head>
+  <body class="detail_store_page">
+    <!--ヘッダー量産機能-->
+    <div id="header"></div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script type="text/javascript">
+          $(document).ready(function() {
+             $('#header').load('header.html');
+          });
+      </script>
+    <!--ヘッダー量産機能ここまで-->
+    <p class="detail_store">特定7品目</p>
+    <div class="detail_store_food">
+    <a class="icon2">LEVEL2</a>
+    <p class="detail_title">えび</p>
+    <a class="icon3">LEVEL3</a>
+    <p class="detail_title">小麦<br>卵<br>乳</p>
+    </div>
+    <p class="detail_store">特定27品目</p>
+    <div class="detail_store_food">
+    <a class="icon1">LEVEL1</a>
+    <p class="detail_title">いくら<br>オレンジ<br>ごま<br>鮭<br>大豆<br>鶏肉<br>豚肉<br>りんご<br></p>
+    <a class="icon2">LEVEL2</a>
+    <p class="detail_title">いか<br>牛肉</p>
+    <a class="icon3">LEVEL3</a>
+    <p class="detail_title">クルミ</p>
+    </div>
+    <center>
+      <p class="detail_title">上記に記載がない特定7・27品目の食品は取り扱いなし</p>
+    </center>
+    <!--ここから下は共通-->
+        <div id="footer"></div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+          <script type="text/javascript">
+              $(document).ready(function() {
+                 $('#footer').load('footer.html');
+              });
+          </script>
+
+    <!--ここまで-->
+  </body>
+</html>

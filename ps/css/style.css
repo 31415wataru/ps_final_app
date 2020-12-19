@@ -100,7 +100,7 @@ text-decoration:underline;
 .icon0{
   font-size: 50px;
   color: white;
-  padding: 0px;
+  padding: 10px;
   border-radius: 20px;
   background-color: black;
 }
@@ -190,4 +190,7 @@ text-decoration:underline;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 80% auto;
+}
+/*------------------------------別ページ-------------------------------*/
+  margin-left: 30px;
 }
