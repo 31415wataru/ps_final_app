@@ -1,3 +1,6 @@
+body{
+  font-family: sans-serif;
+}
 .box{
   position: fixed;
   top: 0;
@@ -106,6 +109,7 @@ text-decoration:underline;
 }
 .text_store{
   margin-left: 50px;
+  font-size: 30px;
 }
 .detail_text{
   margin-left: 50px;
@@ -132,7 +136,7 @@ select{
   font-size: 40px;
 }
 h1{
-  font-size: 50px;
+  font-size: 55px;
 }
 li{
   font-size: 40px;
