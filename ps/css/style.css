@@ -1,3 +1,26 @@
+.homeber{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: white;
+}
+.logo-home img{
+  margin-left: 10%;
+  width: 12%;
+  float: left;
+}
+.logo-profile img{
+  margin-left: 22%;
+  width: 12%;
+  float: left;
+}
+.logo-contact img{
+  margin-left: 23%;
+  width: 12%;
+  float: left;
+}
+
 body{
   font-family: sans-serif;
 }
@@ -130,6 +153,7 @@ text-decoration:none;
 footer{
   background-color: #C0C0C0;
   color: white;
+  margin-bottom: 50px;
 }
 select{
   width: 50%;
@@ -137,9 +161,33 @@ select{
 }
 h1{
   font-size: 55px;
+  color: #595959;
 }
 li{
   font-size: 40px;
+}
+.cation_text{
+  color: red;
+  font-size: 20px;
+}
+#cation{
+  border-top-style:  solid;
+  border-top-color: #BFBFBF;
+  border-top-width: 1px;
+  border-bottom-style:  solid;
+  border-bottom-color: #BFBFBF;
+  border-bottom-width: 1px;
+}
+.top_text{
+  margin-left: 30px;
+}
+.top_text a{
+  color: #595959;
+  text-decoration: none;
+}
+.top_text a :hover{
+  color: #FFD700;
+  text-decoration: none;
 }
 /*------------------------------別ページ-------------------------------*/
 .ichiran_detail ul{
@@ -172,6 +220,7 @@ text-decoration:underline;
 .detail_shousai{
   font-size: 50px;
   color: #A9A9A9;
+  margin-left: 30px;
 }
 /*------------------------------別ページ-------------------------------*/
 .detail_store{

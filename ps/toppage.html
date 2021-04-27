@@ -1,72 +1,83 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css" />
-    <title>TOTBトップページ</title>
-  </head>
 
-  <body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <title>TOTBトップページ</title>
+</head>
+
+<body>
   <!--ヘッダー量産機能-->
   <div id="header"></div>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-           $('#header').load('header.html');
-        });
-    </script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#header').load('header.html');
+    });
+  </script>
   <!--ヘッダー量産機能ここまで-->
   <div class="top_img">
-  <img src="img/totb_rogo.jpg" alt="レベル分け"　>
+    <img src="img/totb_rogo.jpg" alt="レベル分け" 　>
   </div>
   <center>
     <h1>飲食店の食物アレルギー対応情報提供サービス</h1>
-    <h1>店舗名から検索</h1>
+  </center>
+    <div id="cation">
+      <p class="cation_text">注意<br>
+        店側のメニューの変更等により対応状況が変更されている可能性があります。
+        最新情報は店舗に問い合わせることをお勧めします。
+      </p>
+    </div>
+
+    <h1 class="top_text">店舗名から検索</h1>
+      <center>
     <div id="enter_search">
-    <a href="search_name.html">検索する</a>
-  </div>
-    <h1>市町村から検索</h1>
-  <form name="sort_form">
-    <select name="pref" onChange="location.href=value;">
-<option value="大津市" selected>大津市</option>
-<option value="草津市">草津市</option>
-<option value="栗東市">栗東市</option>
-<option value="search_moriyama.html">守山市</option>
-<option value="野洲市">野洲市</option>
-<option value="近江八幡市">近江八幡市</option>
-<option value="東近江市">東近江市</option>
-<option value="彦根市">彦根市</option>
-<option value="米原市">米原市</option>
-<option value="長浜市">長浜市</option>
-<option value="高島市">高島市</option>
-<option value="湖南市">湖南市</option>
-<option value="甲賀市">甲賀市</option>
-<option value="日野町">日野町</option>
-<option value="愛荘町">愛荘町</option>
-<option value="甲良町">甲良町</option>
-<option value="多賀町">多賀町</option>
-<option value="豊郷町">豊郷町</option>
-<option value="竜王町">竜王町</option>
-</select>
-</form>
-<h1>レベル別速見表</h1>
-<div class="top_img">
-<img src="img/level.png" alt="レベル分けの表"　>
-<img src="img/level_example.png" alt="レベル分けの表"　>
-</div>
-<!--ここから下は共通-->
+      <a href="search_name.html">検索する</a>
+    </div>
+  </center>
+
+    <h1 class="top_text">市町村から検索</h1>
     <center>
-      <div  class="return_top">
-        <b>
-      <a href="ichiran.html">店舗一覧</a>
-       </b>
-      </div>
-    </center>
+    <form name="sort_form">
+      <select name="pref" onChange="location.href=value;">
+        <option value="大津市" selected>大津市</option>
+        <option value="草津市">草津市</option>
+        <option value="栗東市">栗東市</option>
+        <option value="search_moriyama.html">守山市</option>
+        <option value="野洲市">野洲市</option>
+        <option value="近江八幡市">近江八幡市</option>
+        <option value="東近江市">東近江市</option>
+        <option value="彦根市">彦根市</option>
+        <option value="米原市">米原市</option>
+        <option value="長浜市">長浜市</option>
+        <option value="高島市">高島市</option>
+        <option value="湖南市">湖南市</option>
+        <option value="甲賀市">甲賀市</option>
+        <option value="日野町">日野町</option>
+        <option value="愛荘町">愛荘町</option>
+        <option value="甲良町">甲良町</option>
+        <option value="多賀町">多賀町</option>
+        <option value="豊郷町">豊郷町</option>
+        <option value="竜王町">竜王町</option>
+      </select>
+    </form>
+  </center>
+    <h1 class="top_text">レベル別速見表</h1>
+    <div class="top_img">
+      <img src="img/level.png" alt="レベル分けの表" 　>
+      <img src="img/level_example.png" alt="レベル分けの表" 　>
+    </div>
+   <h1 class="top_text"><a href="ichiran.html">TOTB対応店舗一覧</a></h1>
+
+    <!--ここから下は共通-->
     <footer>
       <center>
-      ©ps from Ritsumeikan Moriyama HS
+        ©ps from Ritsumeikan Moriyama HS
       </center>
     </footer>
-  <!--ここまで-->
-  </body>
+    <!--ここまで-->
+</body>
+
 </html>
